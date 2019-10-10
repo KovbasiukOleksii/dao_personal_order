@@ -1,0 +1,158 @@
+@media only screen and (max-height: 700px) {
+    
+}
+
+
+@media only screen and (max-width: 1921px) {
+	.personal_order_table_main {
+		height: 79vh;
+	}
+}
+
+
+@media only screen and (max-width: 1367px) {
+	.personal_order_table_main {
+		height: 78vh;
+	}
+}
+
+@media only screen and (max-width: 801px) {
+	body {
+		background: #fff;
+	}
+	
+	.personal_order {
+		width: 787px;
+	}
+	
+	.personal_order_table_title {
+		padding-right: 20px;
+	}
+	
+	.personal_order_table_main {
+		height: 74vh;
+	}
+}
+
+
+/* MoBIlE HACK ! ))) */
+
+@media only screen and (max-width: 415px) {
+	.personal_order {
+		width: 100%;
+	}
+	
+	.personal_order_filter {
+		padding: 0px 16px 10px 16px;
+	}
+	
+	.personal_order_filter .div_for_mobile {
+		display: block;
+		margin-top: 15px;
+	}
+	
+	.personal_order_plant {
+		margin-left: 0;
+	} 
+	
+	.personal_order select {
+		float: right;
+		width: 115px;
+	}
+	
+	.personal_order .plant_order {
+		margin-right: 0;
+		float: right;
+	}
+	
+	.personal_order_table {
+		margin-top: 10px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		height: 100%;
+	}
+	
+	.personal_order_table_title {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		position: fixed;
+	}
+	
+	.personal_order_table_total .total_title {
+		width: none;
+	}
+	
+	.personal_order_table_main details:last-child {
+		margin-bottom: 18px;
+	}
+	
+	.total_summ {
+		width: 100%;
+		text-align: right;
+		margin-right: 16px;
+	}
+	
+	.personal_order_table_total {
+		position: fixed;
+		bottom: 0;
+	}
+	
+	.personal_order_table_main {
+		height: normal;
+		margin-top: 50px;
+	}
+	
+	.personal_order_table_number p:first-child,
+	.personal_order_table_date,
+	.personal_order_table_type,
+	.personal_order_table_plant,
+	.personal_order_table_name,
+	.personal_order_table_work-in,
+	.personal_order_table_work-out {
+		display: none;
+	}
+	
+	.personal_order_table_number p:nth-child(n + 2) {
+		display: block;
+	}
+	
+	.personal_order_table_mark {
+		text-align: center;
+	}
+	
+	.personal_order_table_subtitle {
+		font-size: 14px;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_type {
+		width: 85px;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_sort {
+		width: 103px;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_size {
+		order: 4;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_fb {
+		order: 3;
+		text-align: left;
+		width: 75px;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.personal_order_table_main .personal_order_table_subtitle {
+		padding: 5px 10px;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_sort {
+		width: 88px;
+	}
+	
+	.personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_fb {
+		width: 64px;
+	}
+}

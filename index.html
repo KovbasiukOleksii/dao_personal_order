@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+
+<body>
+	<div class="personal_order">
+		<div class="personal_order_filter">
+			<form>
+           		<div class="div_for_mobile">
+					<label class="personal_order_mark" for="mark">Маркировка:</label>
+					<select name="mark" id="mark" class="mark_order">
+						<option value="" selected >Все</option>
+						<option value="" >acura</option>
+						<option value="" >an24</option>
+						<option value="" >ak74</option>
+						<option value="" >dolman</option>
+						<option value="" >...</option>
+					</select>
+                </div>
+                <div class="div_for_mobile">
+					<label class="personal_order_plant" for="plant">Плантация:</label>
+						<input type="text" class="plant_order">
+				</div>
+               <div class="div_for_mobile">
+					<label class="personal_order_day" for="day">День выхода с плантации:</label>
+					<select name="day" id="day" class="day_order">
+						<option value="" selected >Все</option>
+						<option value="" >Понедельник</option>
+						<option value="" >Вторник</option>
+						<option value="" >Среда</option>
+						<option value="" >Четверг</option>
+						<option value="" >Пятница</option>
+						<option value="" >Суббота</option>
+						<option value="" >Воскресенье</option>
+					</select>
+			   </div>
+            </form>
+		</div>
+		<div class="personal_order_table">
+			<div class="personal_order_table_title">
+				<div class="personal_order_table_number">
+					<p>№ Заказа</p>
+					<p>№</p>
+					<p>Тип</p>
+				</div>
+				<div class="personal_order_table_date">
+					<p>Дата обновления</p>
+				</div>
+				<div class="personal_order_table_mark">
+					<p>Маркировка</p>
+					<p>Плантация</p>
+				</div>
+				<div class="personal_order_table_type">
+					<p>Тип</p>
+				</div>
+				<div class="personal_order_table_plant">
+					<p>Плантация</p>
+				</div>
+				<div class="personal_order_table_fb">
+					<p>Всего FB</p>
+				</div>
+				<div class="personal_order_table_day">
+					<p>День выхода с фермы</p>
+				</div>
+				<div class="personal_order_table_name">
+					<p>Название</p>
+				</div>
+				<div class="personal_order_table_work-in">
+					<p>Работает с</p>
+				</div>
+				<div class="personal_order_table_work-out">
+					<p>Работает до</p>
+				</div>
+			</div>
+			<div class="personal_order_table_main">
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>648</p>
+							<p>648</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>2018-08-03 <span>14:40:41</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>saturn</span></p>
+							<p>sunrite</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>sunrite</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>4.50</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Понедельник</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>---</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>agapanthus</p>
+								</div>
+								<div class="flow_sort">
+									<p>hearts-wanted</p>
+								</div>
+								<div class="flow_size">
+									<p>80</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>cornations</p>
+								</div>
+								<div class="flow_sort">
+									<p>Red Magic</p>
+								</div>
+								<div class="flow_size">
+									<p>STANDARD - SELECT</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>Rose</p>
+								</div>
+								<div class="flow_sort">
+									<p>white chocolate</p>
+								</div>
+								<div class="flow_size">
+									<p>90</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.50</p>
+								</div>
+							</div>
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>Rose</p>
+								</div>
+								<div class="flow_sort">
+									<p>freedom</p>
+								</div>
+								<div class="flow_size">
+									<p>120</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>658</p>
+							<p>658</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>2018-08-13 <span>11:45:11</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>an24</span></p>
+							<p>el cactus</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>el cactus</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>2.50</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Понедельник</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>---</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>agapanthus</p>
+								</div>
+								<div class="flow_sort">
+									<p>hearts-wanted</p>
+								</div>
+								<div class="flow_size">
+									<p>80</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>Rose</p>
+								</div>
+								<div class="flow_sort">
+									<p>freedom</p>
+								</div>
+								<div class="flow_size">
+									<p>90</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.50</p>
+								</div>
+							</div>
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>Rose</p>
+								</div>
+								<div class="flow_sort">
+									<p>freedom</p>
+								</div>
+								<div class="flow_size">
+									<p>120</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>779</p>
+							<p>779</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>2018-08-13 <span>11:45:11</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>dolman</span></p>
+							<p>violeta flowers</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>violeta flowers</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>1.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Понедельник</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>---</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>---</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>agapanthus</p>
+								</div>
+								<div class="flow_sort">
+									<p>hearts-wanted</p>
+								</div>
+								<div class="flow_size">
+									<p>80</p>
+								</div>
+								<div class="flow_fb">
+									<p>1.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+				<details>
+					<summary>
+						<div class="personal_order_table_main_item">
+							<div class="personal_order_table_number">
+							<p>000</p>
+							<p>000</p> <!-- дублируем номер заказа для мобильной адаптации -->
+							<p>PSO</p> <!-- передаем тип заказа для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_date">
+							<p>0000-00-00 <span>00:00:00</span> </p>
+						</div>
+						<div class="personal_order_table_mark">
+							<p><span>mark</span></p>
+							<p>plantation name</p> <!-- передаем плантацию для мобильной адаптации -->
+						</div>
+						<div class="personal_order_table_type">
+							<p><span>pso</span></p>
+						</div>
+						<div class="personal_order_table_plant">
+							<p>plantation name</p>
+						</div>
+						<div class="personal_order_table_fb">
+							<p>0.00</p>
+						</div>
+						<div class="personal_order_table_day">
+							<p>Day_out</p>
+						</div>
+						<div class="personal_order_table_name">
+							<p>name</p>
+						</div>
+						<div class="personal_order_table_work-in">
+							<p>0000-00-00</p>
+						</div>
+						<div class="personal_order_table_work-out">
+							<p>0000-00-00</p>
+						</div>
+						</div>
+					</summary>
+						<div class="personal_order_table_subtitle">
+							<div class="subtitle_item">
+								<div class="flow_type">
+									<p>flower_type</p>
+								</div>
+								<div class="flow_sort">
+									<p>flower_sort</p>
+								</div>
+								<div class="flow_size">
+									<p>000</p>
+								</div>
+								<div class="flow_fb">
+									<p>0.00</p>
+								</div>
+							</div>
+						</div>
+				</details>
+			</div>
+			<div class="personal_order_table_total">
+				<div class="total_title">
+					<p>Всего:</p>
+				</div>
+				<div class="total_summ">
+					<p>17.50 FB</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

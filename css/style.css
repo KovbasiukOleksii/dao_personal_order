@@ -1,0 +1,238 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: url(../BG/flow2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.personal_order {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .personal_order_filter {
+    font-size: 14px; }
+    .personal_order_filter .div_for_mobile {
+      display: inline-block; }
+  .personal_order_mark {
+    margin-right: 10px; }
+  .personal_order_plant {
+    margin-left: 30px;
+    margin-right: 10px; }
+  .personal_order .plant_order {
+    width: 115px;
+    margin-right: 30px; }
+  .personal_order_day {
+    margin-right: 10px; }
+  .personal_order select {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid;
+    outline: none; }
+  .personal_order .plant_order {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    background: url(../icon/search_ico.png) no-repeat center right; }
+  .personal_order_table {
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    width: 100%;
+    height: 85vh;
+    border: 1px solid #C8C8C8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .personal_order_table_title {
+      width: calc(100% + 2px);
+      margin-left: -1px;
+      height: 50px;
+      background-color: #5A5A5A;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px 0 10px;
+      color: #fff;
+      font-size: 14px; }
+    .personal_order_table_number {
+      width: 50px;
+      text-align: center; }
+      .personal_order_table_number p:nth-child(n + 2) {
+        display: none; }
+    .personal_order_table_date {
+      width: 100px;
+      text-align: center; }
+      .personal_order_table_date span {
+        font-size: 12px;
+        color: #9F9F9F; }
+    .personal_order_table_mark {
+      width: 110px; }
+      .personal_order_table_mark span {
+        color: #007DC4; }
+    .personal_order_table_type {
+      width: 50px; }
+      .personal_order_table_type span {
+        text-transform: uppercase; }
+    .personal_order_table_plant {
+      width: 90px;
+      text-transform: capitalize; }
+    .personal_order_table_fb {
+      width: 70px;
+      text-align: center; }
+    .personal_order_table_day {
+      width: 120px;
+      text-align: center; }
+    .personal_order_table_name {
+      width: 80px;
+      text-align: center; }
+    .personal_order_table_work-in {
+      width: 70px;
+      text-align: center; }
+    .personal_order_table_work-out {
+      width: 80px;
+      text-align: center; }
+    .personal_order_table_main {
+      overflow-y: auto;
+      height: 81vh; }
+      .personal_order_table_main_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        padding: 0 30px 0 10px;
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #C8C8C8; }
+      .personal_order_table_main details {
+        position: relative;
+        -webkit-transition: min-height .15s linear, max-height .15s linear;
+        overflow: hidden;
+        will-change: max-height; }
+        .personal_order_table_main details:hover {
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+          cursor: pointer; }
+      .personal_order_table_main summary {
+        outline: none;
+        display: inline-block;
+        width: 100%; }
+        .personal_order_table_main summary::-webkit-details-marker {
+          display: none; }
+        .personal_order_table_main summary::-moz-list-bullet {
+          list-style-type: none; }
+        .personal_order_table_main summary::before {
+          content: "";
+          position: absolute;
+          top: 17px;
+          right: 10px;
+          background: url(../icon/arrow_ico.png) no-repeat 50% 50%;
+          height: 1em;
+          width: 1em;
+          transition: transform .1s linear;
+          -webkit-transition: transform .1s linear; }
+      .personal_order_table_main details[open] {
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8); }
+        .personal_order_table_main details[open] summary {
+          background-color: #E8E8E8;
+          outline: none;
+          width: 100%; }
+          .personal_order_table_main details[open] summary:before {
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg); }
+      .personal_order_table_main .personal_order_table_subtitle {
+        padding: 5px 20px; }
+        .personal_order_table_main .personal_order_table_subtitle .subtitle_item {
+          display: flex;
+          padding: 5px 0;
+          border-bottom: 1px solid #C8C8C8;
+          border-bottom-style: dashed; }
+          .personal_order_table_main .personal_order_table_subtitle .subtitle_item:last-child {
+            border: none; }
+          .personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_type {
+            text-transform: capitalize;
+            width: 170px; }
+          .personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_sort {
+            width: 190px; }
+          .personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_size {
+            width: 107px; }
+          .personal_order_table_main .personal_order_table_subtitle .subtitle_item .flow_fb {
+            width: 70px;
+            text-align: center; }
+    .personal_order_table_total {
+      width: calc(100% + 2px);
+      height: 25px;
+      background-color: #5A5A5A;
+      margin-left: -1px;
+      margin-top: -1px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding-left: 20px; }
+      .personal_order_table_total .total_title {
+        width: 480px; }
+
+/* скрывает половину багов в гребаном ІЕ но не все :( */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  details {
+    max-height: none; }
+    details summary ~ * {
+      max-height: 0;
+      overflow: hidden;
+      position: absolute; }
+    details summary:focus {
+      color: #d06c6c; }
+      details summary:focus::before {
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg); }
+      details summary:focus ~ * {
+        max-height: 20em;
+        position: static;
+        opacity: 1; } }
+
+@supports (-ms-ime-align: auto) {
+  details {
+    max-height: none; }
+    details summary ~ * {
+      max-height: 0;
+      overflow: hidden;
+      position: absolute; }
+    details summary:focus {
+      color: #d06c6c; }
+      details summary:focus::before {
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg); }
+      details summary:focus ~ * {
+        max-height: 20em;
+        position: static;
+        opacity: 1; } }
+
+/*Стилизация скрола да хром */
+::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff; }
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 2px;
+  background-color: #D6D6D6; }
+
+::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px; }
+
+::-webkit-scrollbar {
+  width: 7px; }
+
+/*# sourceMappingURL=style.css.map */
