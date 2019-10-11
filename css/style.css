@@ -16,8 +16,14 @@ body {
   margin-top: 30px; }
   .personal_order_filter {
     font-size: 14px; }
+    .personal_order_filter form {
+      display: flex;
+      justify-content: space-around; }
     .personal_order_filter .div_for_mobile {
-      display: inline-block; }
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.9); }
   .personal_order_mark {
     margin-right: 10px; }
   .personal_order_plant {
@@ -37,7 +43,8 @@ body {
     outline: none;
     border: none;
     border-bottom: 1px solid;
-    background: url(../icon/search_ico.png) no-repeat center right; }
+    background: url(../icon/search_ico.png) no-repeat center right;
+    background-size: 12px; }
   .personal_order_table {
     background: rgba(255, 255, 255, 0.9);
     margin-top: 20px;
