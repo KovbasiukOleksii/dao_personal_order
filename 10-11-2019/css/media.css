@@ -14,21 +14,6 @@
 	.personal_order_table_main {
 		height: 78vh;
 	}
-	
-	header .header_flex .menu {
-		flex: 4;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	header .header_flex .user {
-		flex: 1.5;
-	}
-	
-	header .header_flex .info {
-		flex: 1.5;
-	}
-	
 }
 
 @media only screen and (max-width: 801px) {
